@@ -1,0 +1,8 @@
+*.swp
+.DS_Store
+.bundle/
+/vendor
+Gemfile.lock
+_site/
+gh-pages/
+tmp/*

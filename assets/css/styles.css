@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+h2, h3, h4 {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+blockquote {
+  margin: 2em;
+  font-style: italic;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding: 50px 100px;
+}
+@media (max-width: 900px) {
+  body {
+    padding: 50px 40px;
+  }
+}
+@media (max-width: 460px) {
+  /* mobile */
+  body {
+    padding: 50px 10px 50px 20px;
+    font-size: 16px;
+  }
+}
+
+/*
+ * Header
+ */
+
+header::after {
+  content: ' ';
+  clear: both;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 23px;
+  width: 200px;
+  float: left;
+}
+.address a {
+  color: black;
+}
+.address {
+  font-style: normal;
+  text-align: right;
+  float: right;
+}
+@media (max-width: 460px) {
+  /* mobile */
+  .address {
+    display: none;
+  }
+}
+
+.nav {
+  float: left;
+  list-style-type: none;
+}
+.nav a {
+  color: black;
+  padding: 8px 10px 5px 10px;
+  display: inline-block;
+}
+.nav .active a {
+  background: black;
+  color: white;
+  margin-right: 5px;
+  cursor: default;
+}
+@media (max-width: 460px) {
+  /* mobile */
+  .nav {
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+}
+
+/*
+ * Projects home page
+ */
+.projects > ul {
+  list-style-type: none;
+}
+.projects img {
+  display: block;
+  height: auto;
+}
+.projects a {
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.projects .title {
+  background: black;
+  color: white;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+}
+.projects a:hover .title {
+  display: inline-block;
+}
+@media (max-width: 460px) {
+  /* mobile */
+  .projects img {
+    width: calc(50vw - 25px);
+  }
+  .projects .title {
+    display: inline-block;
+    height: initial;
+  }
+}
+
+
+/*
+ * Single project and static pages
+ */
+.default {
+  position: relative;
+}
+.default aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.default figure {
+  margin-bottom: 20px;
+}
+.default figcaption {
+  font-style: italic;
+}
+.default figure > img {
+  width: calc(100vw - 640px);
+}
+@media (max-width: 900px) {
+  .default figure > img {
+    width: calc(100vw - 510px);
+  }
+}
+@media (max-width: 770px) {
+  /* mobile */
+  .default aside {
+    position: static;
+  }
+  .default figure {
+    margin-right: 5px;
+  }
+  .default figure > img {
+    width: 100%;
+  }
+}
+.default p, .default li, .default blockquote,
+.default h2, .default h3, .default h4 {
+  max-width: 400px;
+}

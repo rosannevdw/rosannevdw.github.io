@@ -1,0 +1,21 @@
+# Site settings
+name: "studio franklin"
+description: ""
+baseurl: "/studiofranklin-website"
+url: "http://mb21.github.io/studiofranklin-website"
+githubUsername: mb21
+
+# Build settings
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""  # empty string for all files
+      type: projects
+    values:
+      layout: default
+      is_post: true

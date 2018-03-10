@@ -1,0 +1,22 @@
+<header>
+  <h1 class="logo">
+    <a href="{{ site.baseurl }}/">
+      <img src="{{ site.baseurl }}/assets/logo.svg" alt="{{ site.name }}" >
+    </a>
+  </h1>
+
+  <address class="address">
+    <a href="mailto:design@studio-franklin.com">design@studio-franklin.com</a><br>
+    aargauerstr 70/02, 8048 zürich<br>
+    <a href="tel:+410786940476">+41 078 694 04 76</a>
+  </address>
+
+  <ul class="nav">
+    {% assign items = site.pages | where_exp:"page", "page.name != 'style.scss'" | sort: 'order' %}
+    {% for item in items %}
+      <li class="{% if item.url == page.url %}active{% endif %}">
+        <a href="{{ item.url | prepend: site.baseurl }}">{{ item.title }} </a>
+      </li>
+    {% endfor %}
+  </ul>
+</header>
