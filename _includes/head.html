@@ -4,8 +4,8 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
   <meta name="viewport" content="width=device-width">
   <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
-  <link rel="canonical" href="{{ page.url | replace:'.html','' | prepend: site.url}}">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="canonical" href="{{ page.url | replace:'.html','' }}">
 {% if page.is_post %}
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:type" content="article" />

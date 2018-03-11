@@ -14,8 +14,8 @@ Studio Franklin wurde im Mai 2015 von Rosanne Vandeweerdt gegründet. Sie hat ei
 
 <aside>
 <figure>
-  <img src="{{ site.baseurl }}/assets/images/rosanne.png"
-    srcset="{{ site.baseurl }}/assets/images/rosanne_2x.jpg 2x"
+  <img src="/assets/images/rosanne.png"
+    srcset="/assets/images/rosanne_2x.jpg 2x"
     alt="">
   <figcaption>Rosanne</figcaption>
 </figure>

@@ -12,15 +12,15 @@ _italics_ **bold**
 <aside>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets{{ page.url }}dialog.jpg"
-    srcset="{{ site.baseurl }}/assets{{ page.url }}dialog_2x.jpg 2x"
+  <img src="/assets{{ page.url }}dialog.jpg"
+    srcset="/assets{{ page.url }}dialog_2x.jpg 2x"
     alt="IFBC cover">
   <figcaption>my caption</figcaption>
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/assets{{ page.url }}dialog.jpg"
-    srcset="{{ site.baseurl }}/assets{{ page.url }}dialog_2x.jpg 2x"
+  <img src="/assets{{ page.url }}dialog.jpg"
+    srcset="/assets{{ page.url }}dialog_2x.jpg 2x"
     alt="IFBC cover">
   <figcaption>my caption</figcaption>
 </figure>

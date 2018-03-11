@@ -1,9 +1,8 @@
 # Site settings
 name: "studio franklin"
 description: ""
-baseurl: "/studiofranklin-website"
-url: "http://mb21.github.io/studiofranklin-website"
-githubUsername: mb21
+url: "http://rosannevdw.github.io"
+githubUsername: rosannevdw
 
 # Build settings
 permalink: pretty
