@@ -5,15 +5,29 @@
 
 a {
   text-decoration: none;
+  color:#160e44;
+}
+
+a:hover {
+  text-decoration: none;
+  color:#00aeef;
 }
 
 p {
   margin-bottom: 1em;
 }
 
+strong {
+  font-weight: normal;
+  color:#00aeef;
+}
+
 h2, h3, h4 {
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  font-family: 'fira sans', sans-serif;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-weight: 500;
+  font-size: 1.25em;
 }
 
 blockquote {
@@ -22,22 +36,21 @@ blockquote {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'QuincyCF-italic', serif;
   font-size: 18px;
-  padding: 50px 100px;
+  color: #160e44;
+  padding: 30px 40px;
+  background-color: #f1f2f2;
 }
-@media (max-width: 900px) {
-  body {
-    padding: 50px 40px;
-  }
-}
+
 @media (max-width: 460px) {
   /* mobile */
   body {
-    padding: 50px 10px 50px 20px;
+    padding: 30px 10px 50px 10px;
     font-size: 16px;
   }
 }
+
 
 /*
  * Header
@@ -47,23 +60,30 @@ header::after {
   content: ' ';
   clear: both;
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .logo {
   font-size: 23px;
-  width: 200px;
+  width: 230px;
   float: left;
 }
+
 .address a {
-  color: black;
+  color: #160e44;
+}
+.address a:hover {
+  color: #00aeef;
 }
 .address {
   font-style: normal;
   text-align: right;
   float: right;
+  font-family: 'QuincyCF-italic', serif;
+  font-weight: 400;
+  line-height: 140%;
 }
-@media (max-width: 460px) {
+@media (max-width: 770px) {
   /* mobile */
   .address {
     display: none;
@@ -73,17 +93,27 @@ header::after {
 .nav {
   float: left;
   list-style-type: none;
+  font-family: 'fira sans', sans-serif;
+  font-weight: 400;
+  color:#160e44;
 }
 .nav a {
-  color: black;
-  padding: 8px 10px 5px 10px;
+  color: #160e44;
+  padding: 5px 20px 5px 10px;
   display: inline-block;
+  /*text-decoration: underline;*/
 }
 .nav .active a {
-  background: black;
+  background: #160e44;
   color: white;
-  margin-right: 5px;
   cursor: default;
+    text-decoration: none;
+}
+.nav a:hover {
+  background: #ecbbbe;
+  color: white;
+  cursor: default;
+  text-decoration: none;
 }
 @media (max-width: 460px) {
   /* mobile */
@@ -107,36 +137,49 @@ header::after {
   display: inline-block;
   float: left;
   position: relative;
-  margin-bottom: 10px;
-  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 .projects .title {
-  background: black;
+  background: #ed1a3b;
   color: white;
-  opacity: 0.6;
   position: absolute;
   bottom: 0;
   padding: 1em;
   width: 100%;
-  height: 100%;
+  height: 30%;
   box-sizing: border-box;
   text-align: center;
   display: none;
+  font-family: 'fira sans', sans-serif;
+  font-weight: 400;
 }
 .projects a:hover .title {
   display: inline-block;
 }
+@media (max-width: 900px) and (min-width: 461px) {
+  /* medium */
+  .projects img {
+    width: calc((100vw - 140px)/3);
+  }
+  .projects .title {
+    font-size: 0.8em;
+  }
+}
 @media (max-width: 460px) {
   /* mobile */
   .projects img {
-    width: calc(50vw - 25px);
+    width: calc(50vw - 30px);
   }
   .projects .title {
     display: inline-block;
     height: initial;
+    background: #f1f2f2;
+    color: #160e44;
+    opacity: 0.8;
+    font-size: 0.7em;
   }
 }
-
 
 /*
  * Single project and static pages
@@ -154,22 +197,29 @@ header::after {
 }
 .default figcaption {
   font-style: italic;
+  color: #cac3ca;
 }
 .default figure > img {
-  width: calc(100vw - 640px);
+  width: calc(100vw - 500px);
 }
-@media (max-width: 900px) {
-  .default figure > img {
-    width: calc(100vw - 510px);
-  }
+.default .uebersichtlink {
+  font-family: 'fira sans', sans-serif;
+  font-size: 0.8em;
+  color: #cac3ca;
+  margin-bottom: 10px;
 }
+.default .uebersichtlink:hover {
+  color: #00aeef;
+}
+
+
 @media (max-width: 770px) {
   /* mobile */
   .default aside {
     position: static;
   }
   .default figure {
-    margin-right: 5px;
+    margin-right: 0px;
   }
   .default figure > img {
     width: 100%;
@@ -178,4 +228,13 @@ header::after {
 .default p, .default li, .default blockquote,
 .default h2, .default h3, .default h4 {
   max-width: 400px;
+}
+
+.default ul {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.no-pad p, .no-pad a, .no-pad h1, .no-pad h2, .no-pad h3, .no-pad h4 {
+    margin-bottom: 0px;
 }

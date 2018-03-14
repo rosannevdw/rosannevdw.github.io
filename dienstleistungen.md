@@ -1,5 +1,5 @@
 ---
-title:  'Dienstleistungen'
+title:  '- wird gerne f&uuml;r Sie machen:'
 order: 2
 ---
 

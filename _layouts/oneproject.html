@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+
+<html lang="de">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+
+    <main class="default">
+      <a href="/index.html" class="uebersichtlink">&laquo; zur&uuml;ck zum &Uuml;bersicht</a>
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    </main>
+  </body>
+</html>
