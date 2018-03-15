@@ -84,7 +84,7 @@ p {
 
 strong {
   font-weight: normal;
-  color:#00aeef;
+  color: #00aeef;
 }
 
 h2 {
@@ -112,7 +112,7 @@ body {
   font-family: 'Quincy-italic', serif;
   font-size: 18px;
   color: #160e44;
-  padding: 30px 40px;
+  padding: 30px 20px 30px 40px;
   background-color: #f1f2f2;
 }
 
@@ -124,10 +124,17 @@ body {
   }
 }
 
+main {
+  margin-right: 20px;
+}
 
 /*
  * Header
  */
+
+header {
+  margin-right: 20px;
+}
 
 header::after {
   content: ' ';
@@ -181,13 +188,11 @@ header::after {
 .nav .active a {
   background: #160e44;
   color: white;
-  cursor: default;
-    text-decoration: none;
+  text-decoration: none;
 }
 .nav a:hover {
   background: #ecbbbe;
   color: white;
-  cursor: default;
   text-decoration: none;
 }
 @media (max-width: 460px) {
@@ -201,6 +206,9 @@ header::after {
 /*
  * Projects home page
  */
+main.projects {
+  margin-right: 0;
+}
 .projects > ul {
   list-style-type: none;
 }
@@ -233,15 +241,15 @@ header::after {
   display: inline-block;
 }
 .projects .coverimage {
-  width:100%;
-  max-height:400px;
-  margin-bottom:40px;
-  background:#00aeef;
+  max-height: 400px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  background: #00aeef;
 }
 @media (max-width: 900px) and (min-width: 461px) {
   /* medium */
-  .projects img {
-    width: calc((100vw - 140px)/3);
+  .projects .projectcover {
+    width: calc((100vw - 120px)/3);
   }
   .projects .title {
     font-size: 0.8em;
