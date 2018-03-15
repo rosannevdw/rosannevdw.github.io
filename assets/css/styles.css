@@ -1,3 +1,67 @@
+/* Quincy CF italic */
+@font-face {
+  font-family: "Quincy-italic";
+  src: url("/assets/fonts/QuincyCF-italic.woff") format("woff");
+}
+/* Quincy CF regular */
+@font-face {
+  font-family: "Quincy-regular";
+  src: url("/assets/fonts/QuincyCF-regular.woff") format("woff");
+}
+/* fira-sans-300 - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Fira Sans Light'), local('FiraSans-Light'),
+       url('assets/fonts/fira-sans-v8-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-300italic - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Fira Sans Light Italic'), local('FiraSans-LightItalic'),
+       url('assets/fonts/fira-sans-v8-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-regular - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'),
+       url('assets/fonts/fira-sans-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-italic - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Fira Sans Italic'), local('FiraSans-Italic'),
+       url('assets/fonts/fira-sans-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-500 - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Fira Sans Medium'), local('FiraSans-Medium'),
+       url('assets/fonts/fira-sans-v8-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fira-sans-500italic - latin */
+@font-face {
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Fira Sans Medium Italic'), local('FiraSans-MediumItalic'),
+       url('assets/fonts/fira-sans-v8-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('assets/fonts/fira-sans-v8-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 * {
   margin: 0;
   padding: 0;
@@ -22,12 +86,20 @@ strong {
   color:#00aeef;
 }
 
-h2, h3, h4 {
-  font-family: 'fira sans', sans-serif;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+h2 {
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
   font-size: 1.25em;
+}
+
+h3, h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-size: 1em;
 }
 
 blockquote {
@@ -36,7 +108,7 @@ blockquote {
 }
 
 body {
-  font-family: 'QuincyCF-italic', serif;
+  font-family: 'Quincy-italic', serif;
   font-size: 18px;
   color: #160e44;
   padding: 30px 40px;
@@ -79,11 +151,12 @@ header::after {
   font-style: normal;
   text-align: right;
   float: right;
-  font-family: 'QuincyCF-italic', serif;
+  font-family: 'Quincy-italic', serif;
   font-weight: 400;
-  line-height: 140%;
+  line-height: 130%;
+  font-size: 1em;
 }
-@media (max-width: 770px) {
+@media (max-width: 799px) {
   /* mobile */
   .address {
     display: none;
@@ -93,15 +166,16 @@ header::after {
 .nav {
   float: left;
   list-style-type: none;
-  font-family: 'fira sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
   color:#160e44;
+  font-size: 1em;
 }
 .nav a {
   color: #160e44;
   padding: 5px 20px 5px 10px;
   display: inline-block;
-  /*text-decoration: underline;*/
+  text-decoration: underline;
 }
 .nav .active a {
   background: #160e44;
@@ -147,15 +221,21 @@ header::after {
   bottom: 0;
   padding: 1em;
   width: 100%;
-  height: 30%;
+  height: 60%;
   box-sizing: border-box;
   text-align: center;
   display: none;
-  font-family: 'fira sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
 }
 .projects a:hover .title {
   display: inline-block;
+}
+.projects .coverimage {
+  width:100%;
+  max-height:400px;
+  margin-bottom:40px;
+  background:#00aeef;
 }
 @media (max-width: 900px) and (min-width: 461px) {
   /* medium */
@@ -196,22 +276,35 @@ header::after {
   margin-bottom: 20px;
 }
 .default figcaption {
-  font-style: italic;
-  color: #cac3ca;
+  color: #a7a7b5;
 }
 .default figure > img {
-  width: calc(100vw - 500px);
+  width: calc(100vw - 460px);
 }
 .default .uebersichtlink {
-  font-family: 'fira sans', sans-serif;
-  font-size: 0.8em;
-  color: #cac3ca;
+  font-size: 0.85em;
+  font-family:'Fira Sans', serif;
+  color: #160e44;
   margin-bottom: 10px;
+  background-color: #e6e7e8;
+  padding: 3px 8px;
 }
 .default .uebersichtlink:hover {
   color: #00aeef;
 }
 
+.default p, .default li, .default blockquote,
+.default h2, .default h3, .default h4 {
+  max-width: 350px;
+}
+
+.default ul {
+  list-style-type: none;
+  margin-bottom: 2em;
+  font-family:'Fira Sans', sans-serif;
+  font-size: 0.85em;
+  line-height: 140%;
+}
 
 @media (max-width: 770px) {
   /* mobile */
@@ -224,17 +317,4 @@ header::after {
   .default figure > img {
     width: 100%;
   }
-}
-.default p, .default li, .default blockquote,
-.default h2, .default h3, .default h4 {
-  max-width: 400px;
-}
-
-.default ul {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-.no-pad p, .no-pad a, .no-pad h1, .no-pad h2, .no-pad h3, .no-pad h4 {
-    margin-bottom: 0px;
 }

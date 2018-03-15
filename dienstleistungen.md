@@ -1,24 +1,24 @@
 ---
-title:  '- wird gerne f&uuml;r Sie machen:'
+title:  'wird gerne f&uuml;r Sie machen:'
 order: 2
 ---
 
-### Was mache ich
+## Was mache ich
 
-#### Strategie
+### Strategie
 
 - Neu- und Umgestaltung des Erscheinungsbildes
 - Logo
 - Markenrichtlinien
 
-#### Grafik
+### Grafik
 
 - Visitenkarten, Briefbogen, Umschläge, usw.
 - Konzepte für Branding-Kampagnen
 - Printmedien: Geschäftsberichte, Magazine, Broschüren, Plakate, Flyer, POS Vorlagen, usw.
 - Konzepte für Web & User Interface
 
-#### Produkt- & Raumgestaltung
+### Produkt- & Raumgestaltung
 
 - Verpackungen
 - Möbel- und Produktgestaltung
@@ -27,7 +27,7 @@ order: 2
 - Signaletik
 
 
-### Spezialangebot: Take-off Package
+## Spezialangebot: Take-off Package
 
 
-### Partner
+## Partner
