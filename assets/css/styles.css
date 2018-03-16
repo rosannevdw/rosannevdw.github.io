@@ -112,14 +112,14 @@ body {
   font-family: 'Quincy-italic', serif;
   font-size: 18px;
   color: #160e44;
-  padding: 30px 20px 30px 40px;
+  padding: 20px 20px 30px 40px;
   background-color: #f1f2f2;
 }
 
 @media (max-width: 460px) {
   /* mobile */
   body {
-    padding: 30px 10px 50px 10px;
+    padding: 20px 0px 50px 20px;
     font-size: 16px;
   }
 }
@@ -181,7 +181,7 @@ header::after {
 }
 .nav a {
   color: #160e44;
-  padding: 5px 20px 5px 10px;
+  padding: 5px 20px 5px 20px;
   display: inline-block;
   text-decoration: underline;
 }
@@ -199,7 +199,7 @@ header::after {
   /* mobile */
   .nav {
     margin-top: 5px;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 }
 
@@ -244,7 +244,7 @@ main.projects {
   max-height: 400px;
   margin-bottom: 40px;
   margin-right: 20px;
-  background: #00aeef;
+  background: #ffffff;
 }
 @media (max-width: 900px) and (min-width: 461px) {
   /* medium */
