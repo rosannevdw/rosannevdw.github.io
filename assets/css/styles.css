@@ -80,10 +80,12 @@ a:hover {
 
 p {
   margin-bottom: 1em;
+  line-height: 1.35em;
 }
 
 strong {
-  font-weight: normal;
+  font-weight: inherit;
+  font-size: 1em;
   color: #00aeef;
 }
 
@@ -92,20 +94,28 @@ h2 {
   font-weight: 500;
   margin-top: 1em;
   margin-bottom: 0.5em;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
-h3, h4 {
+h3 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #00aeef;
+  font-weight: 500;
+  font-size: 1em;
+  margin-bottom: 0.25em;
+  margin-top: 1.5em;
+}
+
+h4 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
-  margin-top: 2em;
-  margin-bottom: 0.5em;
+  margin-top: 1em;
   font-size: 1em;
 }
 
 blockquote {
   margin: 2em;
-  font-style: italic;
+  font-style: normal;
 }
 
 body {
@@ -120,7 +130,7 @@ body {
   /* mobile */
   body {
     padding: 20px 0px 50px 20px;
-    font-size: 16px;
+    font-size: 15px;
   }
 }
 
@@ -145,7 +155,7 @@ header::after {
 
 .logo {
   font-size: 23px;
-  width: 230px;
+  width: 240px;
   float: left;
 }
 
@@ -183,7 +193,8 @@ header::after {
   color: #160e44;
   padding: 5px 20px 5px 20px;
   display: inline-block;
-  text-decoration: underline;
+  text-decoration: none;
+  background: white;
 }
 .nav .active a {
   background: #160e44;
@@ -192,7 +203,7 @@ header::after {
 }
 .nav a:hover {
   background: #ecbbbe;
-  color: white;
+  color: #ed1a3b;
   text-decoration: none;
 }
 @media (max-width: 460px) {
@@ -224,7 +235,7 @@ main.projects {
   margin-right: 20px;
 }
 .projects .title {
-  background: #ed1a3b;
+  background: #ed1846;
   color: white;
   position: absolute;
   bottom: 0;
@@ -271,10 +282,14 @@ main.projects {
 }
 
 /*
- * Single project and static pages
+ * Default Static pages (not 1 project)
  */
 .default {
   position: relative;
+}
+.default p, .default li, .default blockquote,
+.default h2, .default h3, .default h4 {
+  max-width: 500px;
 }
 .default aside {
   position: absolute;
@@ -283,39 +298,51 @@ main.projects {
 }
 .default figure {
   margin-bottom: 20px;
+  background: white;
 }
 .default figcaption {
-  color: #a7a7b5;
+  font-size: 0.75em;
+  font-family:'Fira Sans', sans-serif;
+  color: #160e44;
+  padding: 3px 8px 3px 8px;
 }
 .default figure > img {
-  width: calc(100vw - 460px);
+  width: calc(100vw - 650px);
+}
+.default ul {
+  list-style-type: none;
+  margin-bottom: 1em;
+  line-height: 1.35em;
+}
+.default li:before {
+  display:          inline-block;
+  vertical-align:   middle;
+  width:            6px;
+  height:           2px;
+  background-color: #160e44;
+  margin-right:     10px;
+  content:          '';
+}
+.default a {
+  text-decoration: underline;
+}
+.default strong {
 }
 .default .uebersichtlink {
-  font-size: 0.85em;
-  font-family:'Fira Sans', serif;
+  font-size: 0.75em;
+  font-family:'Fira Sans', sans-serif;
   color: #160e44;
   margin-bottom: 10px;
   background-color: #e6e7e8;
   padding: 3px 8px;
+  text-decoration: none;
 }
 .default .uebersichtlink:hover {
-  color: #00aeef;
+  color: #ed1846;
 }
 
-.default p, .default li, .default blockquote,
-.default h2, .default h3, .default h4 {
-  max-width: 350px;
-}
 
-.default ul {
-  list-style-type: none;
-  margin-bottom: 2em;
-  font-family:'Fira Sans', sans-serif;
-  font-size: 0.85em;
-  line-height: 140%;
-}
-
-@media (max-width: 770px) {
+@media (max-width: 900px) {
   /* mobile */
   .default aside {
     position: static;
@@ -324,6 +351,78 @@ main.projects {
     margin-right: 0px;
   }
   .default figure > img {
+    width: 100%;
+  }
+}
+
+/*
+ * One Project pages
+ */
+.oneproject{
+  position: relative;
+}
+.oneproject aside {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.oneproject figure {
+  margin-bottom: 20px;
+  background: white;
+}
+.oneproject figcaption {
+  font-size: 0.75em;
+  font-family:'Fira Sans', sans-serif;
+  color: #160e44;
+  padding: 3px 8px 3px 8px;
+}
+.oneproject figure > img {
+  width: calc(100vw - 500px);
+}
+.oneproject .uebersichtlink {
+  font-size: 0.75em;
+  font-family:'Fira Sans', sans-serif;
+  color: #160e44;
+  margin-bottom: 10px;
+  background-color: #e6e7e8;
+  padding: 3px 8px;
+  text-decoration: none;
+}
+.oneproject .uebersichtlink:hover {
+  color: #ed1846;
+}
+
+.oneproject p, .oneproject li, .oneproject blockquote,
+.oneproject h2, .oneproject h3, .oneproject h4 {
+  max-width: 380px;
+}
+
+.oneproject ul {
+  list-style-type: none;
+  margin-bottom: 2em;
+  line-height: 140%;
+}
+.oneproject a {
+  text-decoration: underline;
+}
+.oneproject strong {
+  background-color: white;
+  color: #160e44;
+  padding: 1px 6px 1px 6px;
+  font-size: 0.75em;
+  font-family:'Fira Sans', sans-serif;
+}
+
+
+@media (max-width: 750px) {
+  /* mobile */
+  .oneproject aside {
+    position: static;
+  }
+  .oneproject figure {
+    margin-right: 0px;
+  }
+  .oneproject figure > img {
     width: 100%;
   }
 }

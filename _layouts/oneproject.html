@@ -4,11 +4,12 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-
-    <main class="default">
-      <a href="/" class="uebersichtlink">« zurück zur Übersicht</a>
-      <h2>{{ page.title }}</h2>
+<h2>{{ page.title }}</h2>
+    <main class="oneproject">
       {{ content }}
+      <a href="/" class="uebersichtlink">&larr; zurück</a>
+      <a href="#top" class="uebersichtlink">&uarr; nach oben</a>
+      <a href="mailto:?Subject=Studio Franklin, Design Projekt {{ page.title }}&amp;Body=Ich%20finde%20dieses%20Projekt%20interessant:%20{{ page.url }}" class="uebersichtlink">&hearts; weiterleiten</a>
     </main>
   </body>
 </html>

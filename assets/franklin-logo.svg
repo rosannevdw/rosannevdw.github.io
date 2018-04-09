@@ -12,8 +12,15 @@
       }
 
       g:hover .cls-2 {
-        fill: #ecbbbe;
+        fill: #ffffff;
       }
+      g:hover .cls-3 {
+        fill: #160e44;
+      }
+      g:hover .cls-1 {
+        fill: none;
+      }
+
 
     </style>
   <title>franklin-logo</title>

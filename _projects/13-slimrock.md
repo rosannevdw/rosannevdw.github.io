@@ -6,12 +6,6 @@ tags:
 
 Text Slimrock.
 
-**Links**: [IFBC Dialog Finance 2017](http://www.ifbc.ch/tl_files/content/file/publikationen/Dialog/Finance/2017/IFBC_Finance_Dialog_2017.pdf),
-[IFBC Dialog Banking 2017](http://www.ifbc.ch/tl_files/content/file/publikationen/Dialog/Banking/2017/IFBC_Banking_Dialog_2017.pdf),
-[IFBC Dialog Finance 2016](http://www.ifbc.ch/tl_files/content/file/publikationen/Dialog/Finance/2016/IFBC_Finance_Dialog_2016.pdf)
-
-
-
 
 <aside>
 
