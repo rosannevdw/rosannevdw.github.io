@@ -43,6 +43,6 @@ Wir empfehlen vom ganzen Herzem:
 - Online Werbung: [Codevelop](https://codevelop.io)
 
 ## Spezialangebot: das Take-off Package
-In eine Markenidentität investieren lohnt sich: eine starkes, klares Branding überzeugt den Kunden und erleichert die Arbeit des Sales-Personals.
+In eine Markenidentität investieren lohnt sich: ein starkes, klares Branding überzeugt den Kunden und erleichert die Arbeit des Sales-Personals.
 
 Speziell für Ihr Start-up-Unternehmen, (Re-)Branding Ihres Unternehmens oder eine neue Produkteinführung, haben wir Pauschalangebote entwickelt. [Schauen Sie sich hier an](/projects/01-imalaya), was diese Designpakete enthalten. Als Beispiel die neue Marke 'Imalaya', mit exklusiven Strickwaren aus Yeti-Wolle.
