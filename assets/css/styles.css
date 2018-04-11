@@ -69,13 +69,13 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color:#160e44;
 }
 
 a:hover {
-  text-decoration: none;
-  color:#00aeef;
+  text-decoration: underline;
+  color:#ed1847;
 }
 
 p {
@@ -86,13 +86,13 @@ p {
 strong {
   font-weight: inherit;
   font-size: 1em;
+  line-height: 150%;
   color: #00aeef;
 }
 
 h2 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
-  margin-top: 1em;
   margin-bottom: 0.5em;
   font-size: 1.3em;
 }
@@ -150,7 +150,7 @@ header::after {
   content: ' ';
   clear: both;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .logo {
@@ -159,12 +159,6 @@ header::after {
   float: left;
 }
 
-.address a {
-  color: #160e44;
-}
-.address a:hover {
-  color: #00aeef;
-}
 .address {
   font-style: normal;
   text-align: right;
@@ -174,10 +168,20 @@ header::after {
   line-height: 130%;
   font-size: 1em;
 }
+.address a {
+  text-decoration: none;
+}
+
 @media (max-width: 799px) {
   /* mobile */
   .address {
     display: none;
+  }
+  header::after {
+    content: ' ';
+    clear: both;
+    display: block;
+    margin-bottom: 30px;
   }
 }
 
@@ -233,6 +237,7 @@ main.projects {
   position: relative;
   margin-bottom: 20px;
   margin-right: 20px;
+  text-decoration: none;
 }
 .projects .title {
   background: #ed1846;
@@ -287,18 +292,20 @@ main.projects {
 .default {
   position: relative;
 }
-.default p, .default li, .default blockquote,
+.default p, .default li,
 .default h2, .default h3, .default h4 {
-  max-width: 500px;
+  max-width: 480px;
 }
 .default aside {
   position: absolute;
-  right: 0;
+  left: 540px;
   top: 0;
 }
 .default figure {
   margin-bottom: 20px;
+  margin-right: 10px;
   background: white;
+  padding: 1px 20px 20px 20px;
 }
 .default figcaption {
   font-size: 0.75em;
@@ -307,14 +314,17 @@ main.projects {
   padding: 3px 8px 3px 8px;
 }
 .default figure > img {
-  width: calc(100vw - 650px);
+  width: calc(100vw - 700px);
+}
+.default img {
+  width: 100%;
 }
 .default ul {
   list-style-type: none;
   margin-bottom: 1em;
   line-height: 1.35em;
 }
-.default li:before {
+.default li::before {
   display:          inline-block;
   vertical-align:   middle;
   width:            6px;
@@ -323,10 +333,10 @@ main.projects {
   margin-right:     10px;
   content:          '';
 }
-.default a {
-  text-decoration: underline;
-}
+
 .default strong {
+  background-color: white;
+  padding: 0px 6px 2px 6px;
 }
 .default .uebersichtlink {
   font-size: 0.75em;
@@ -340,18 +350,40 @@ main.projects {
 .default .uebersichtlink:hover {
   color: #ed1846;
 }
+.default blockquote {
+  background-color: #ecbbbe;
+  border-left: none;
+  padding: 50px 20px 0px 20px;
+  margin: 0px 15px 15px 0px;
+  max-width: 350px;
+  display: inline-block;
+}
+.default blockquote p {
+  position: relative;
+}
+.default blockquote p::before {
+  content: '“';
+  font-size: 4em;
+  position: absolute;
+  font-family: 'Quincy-regular', serif;
+  left: 0px;
+  top: -15px;
+}
 
-
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   /* mobile */
   .default aside {
     position: static;
   }
   .default figure {
-    margin-right: 0px;
+    width: 95%;
   }
   .default figure > img {
     width: 100%;
+  }
+  .default p, .default li,
+  .default h2, .default h3, .default h4, .default blockquote {
+    max-width: none;
   }
 }
 
@@ -402,9 +434,7 @@ main.projects {
   margin-bottom: 2em;
   line-height: 140%;
 }
-.oneproject a {
-  text-decoration: underline;
-}
+
 .oneproject strong {
   background-color: white;
   color: #160e44;
