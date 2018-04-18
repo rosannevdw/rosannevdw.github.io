@@ -4,6 +4,20 @@ title: 'Branding & Design Projekte:'
 order: 1
 ---
 
+<ul class="projects">
+    <li><h4>Wir gestalten Brands:</h4><p>text texte blablablabfalbla</p></li>
+  {% for project in site.projects reversed %}
+    <li>
+      <a href="{{ project.url }}">
+        <img src="/assets{{ project.url }}cover.jpg"
+          srcset="/assets{{ project.url }}cover_2x.jpg 2x" alt="project cover image">
+        <span class="title">{{ project.title }}</span>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+
+<!--
 <ul>
   {% for project in site.projects reversed %}
     <li>
@@ -16,3 +30,4 @@ order: 1
     </li>
   {% endfor %}
 </ul>
+-->

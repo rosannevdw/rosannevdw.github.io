@@ -4,15 +4,15 @@ title:  'Wer wir sind:'
 order: 3
 ---
 
-## Studio Franklin resultiert aus dem Wunsch multidisziplinäre Design-Kompetenzen zusammenzubringen, **mit Schwerpunkt auf Branding.**
+## Studio Franklin resultiert aus dem Wunsch multidisziplinäre Design-Kompetenzen zusammenzubringen, mit Schwerpunkt auf Branding.
 
-Unsere Designarbeit fängt immer bei der **Kernbotschaft** an: wir glauben, dass gutes Design die Story unterstüzt und eine Marke zum Strahlen bringt. Das ist unsere Leidenschaft.
+Unsere Designarbeit fängt immer bei der Kernbotschaft an: wir glauben, dass gutes Design die Story unterstüzt und eine Marke zum Strahlen bringt. Das ist unsere Leidenschaft.
 
 <img src="/assets/images/rosanne.jpg"
   srcset="/assets/images/rosanne_2x.jpg 2x"
   alt="die Gründerin Rosanne">
 
-Studio Franklin wurde im Mai 2015 von **Rosanne Vandeweerdt** gegründet (Bild oben). Sie hat einen Master in Industrie-Design absolviert an der Universität Antwerpen, und bringt über zehn Jahre Berufserfahrung aus einer Vielzahl von Branchen und Orten mit (New York, Barcelona, Zürich). &rarr; [Lebenslauf](/assets/images/CV_RosanneVandeweerdt_DE.pdf){:target="_blank"}. [LinkedIn.](http://www.linkedin.com/in/rosannevdw){:target="_blank"}
+Studio Franklin wurde im Mai 2015 von Rosanne Vandeweerdt gegründet (Bild oben). Sie hat einen Master in Industrie-Design absolviert an der Universität Antwerpen, und bringt über zehn Jahre Berufserfahrung aus einer Vielzahl von Branchen und Orten mit (New York, Barcelona, Zürich). &rarr; [Lebenslauf](/assets/images/CV_RosanneVandeweerdt_DE.pdf){:target="_blank"}. [LinkedIn.](http://www.linkedin.com/in/rosannevdw){:target="_blank"}
 
 Wir reden mit Ihnen **DE/EN/NL/FR y un poco ES.** <br>Und wir haben eine gute Kaffeemaschine: hereinspaziert!
 

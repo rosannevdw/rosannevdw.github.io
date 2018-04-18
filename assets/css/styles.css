@@ -70,7 +70,7 @@
 
 a {
   text-decoration: underline;
-  color:#160e44;
+  color: inherit;
 }
 
 a:hover {
@@ -81,15 +81,15 @@ a:hover {
 p {
   margin-bottom: 1em;
   line-height: 1.35em;
+  color: #1b4685;
 }
 
 strong {
-  font-weight: inherit;
-  font-size: 1em;
-  line-height: 150%;
   color: inherit;
-  background-color: white;
-  padding: 0px 6px 0px 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.85em;
 }
 
 h2 {
@@ -126,6 +126,7 @@ blockquote {
   display: inline-block;
   position: relative;
   vertical-align: top;
+  font-family: 'Quincy-italic', serif;
 }
 blockquote::before {
   content: '“';
@@ -154,7 +155,7 @@ figcaption {
 .uebersichtlink {
   font-size: 0.75em;
   font-family:'Fira Sans', sans-serif;
-  color: #160e44;
+  color: #00005a;
   margin-bottom: 10px;
   background-color: #dcddde;
   padding: 3px 8px;
@@ -166,9 +167,9 @@ figcaption {
 body {
   font-family: 'Quincy-italic', serif;
   font-size: 18px;
-  color: #160e44;
+  color: #00005a;
   padding: 20px 20px 30px 40px;
-  background-color: #f1f2f2;
+  background-color: #f5f5f5;
 }
 
 @media (max-width: 460px) {
@@ -187,6 +188,14 @@ body {
 
 main {
   margin-right: 20px;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+  background-color: #dcddde;
 }
 
 /*
@@ -215,9 +224,9 @@ header::after {
   text-align: right;
   float: right;
   font-family: 'Quincy-italic', serif;
-  font-weight: 400;
   line-height: 130%;
   font-size: 1em;
+  color: #1b4685;
 }
 .address a {
   text-decoration: none;
@@ -244,26 +253,27 @@ header::after {
   list-style-type: none;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
-  color:#160e44;
-  font-size: 1.1em;
+  color:#00005a;
+  font-size: 1em;
 }
 .nav a {
-  color: #160e44;
-  padding: 5px 20px 5px 20px;
+  color: #00aeef;
+  padding: 8px 5px 3px 0px;
   display: inline-block;
   text-decoration: none;
-  background: white;
+  border-bottom: 3px solid #00aeef;
 }
 .nav .active a {
-  background: #160e44;
-  color: white;
+  background: none;
+  color: #00005a;
   text-decoration: none;
   font-weight: 400;
+  border-bottom: 3px solid #00005a;
 }
 .nav a:hover {
-  background: #ecbbbe;
   color: #ed1a3b;
   text-decoration: none;
+  border-bottom: 3px solid #ed1a3b;
 }
 @media (max-width: 460px) {
   /* mobile */
@@ -276,37 +286,36 @@ header::after {
 /*
  * Projects home page
  */
+
 main.projects {
   margin-right: 0;
 }
-.projects > ul {
+.projects ul {
   list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-gap: 1rem;
 }
-.projects img {
-  display: block;
-  height: auto;
-}
-.projects a {
-  display: inline-block;
-  float: left;
+.projects li {
+  display: list-item;
   position: relative;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  text-decoration: none;
+}
+.projects a > img {
+  display: block;
+  width: 100%;
 }
 .projects .title {
-  background: #ed1846;
-  color: white;
+  background-color: #ed1846;
   position: absolute;
   bottom: 0;
-  padding: 1em;
-  width: 100%;
-  height: 60%;
-  box-sizing: border-box;
-  text-align: center;
+  color: white;
+  padding-bottom: 1em;
   display: none;
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
+  text-align: center;
+  padding: 1em;
+  width: calc(100% - 1rem);
 }
 .projects a:hover .title {
   display: inline-block;
@@ -317,8 +326,10 @@ main.projects {
   margin-right: 20px;
   background: #ffffff;
 }
+
+/*
 @media (max-width: 900px) and (min-width: 461px) {
-  /* medium */
+
   .projects .projectcover {
     width: calc((100vw - 120px)/3);
   }
@@ -326,8 +337,9 @@ main.projects {
     font-size: 0.8em;
   }
 }
+
 @media (max-width: 460px) {
-  /* mobile */
+
   .projects img {
     width: calc(50vw - 30px);
   }
@@ -335,11 +347,12 @@ main.projects {
     display: inline-block;
     height: initial;
     background: #f1f2f2;
-    color: #160e44;
+    color: #00005a;
     opacity: 0.8;
     font-size: 0.7em;
   }
 }
+ */
 
 /*
  * Default Static pages (not 1 project)
@@ -369,9 +382,16 @@ main.projects {
   vertical-align:   middle;
   width:            6px;
   height:           2px;
-  background-color: #160e44;
+  background-color: #00005a;
   margin-right:     10px;
   content:          '';
+}
+
+.default strong {
+  font-family: inherit;
+  color: #00aeef;
+  background-color: white;
+  padding: 0px 6px 0px 6px;
 }
 
 @media (max-width: 799px) {
@@ -418,7 +438,7 @@ main.projects {
 
 .oneproject em {
   background-color: white;
-  color: #160e44;
+  color: #00005a;
   padding: 1px 6px 1px 6px;
   font-size: 0.75em;
   font-family:'Fira Sans', sans-serif;
