@@ -5,10 +5,11 @@
   <body>
     {% include header.html %}
     <main class="default">
-      <!-- <h2>{{ page.title }}</h2> -->
       {{ content }}
       <a href="#top" class="uebersichtlink">&uarr; nach oben</a>
-      <a href="mailto:?Subject=Studio Franklin, Branding und Design / {{ page.title }}&amp;Body=Dieseh%20Seite%20möchte%20ich%20teilen:%20www.studio-franklin{{ page.url }}.com" class="uebersichtlink">&hearts; weiterleiten</a>
+      <a href="mailto:?Subject=Studio Franklin, Branding und Design / {{ page.title }}&amp;Body=Dieseh%20Seite%20möchte%20ich%20teilen:%20www.studio-franklin{{ page.url }}.com" class="uebersichtlink">
+        <img src="/assets/images/envelope.svg" alt="envelope logo" class="envelope"> weiterleiten
+      </a>
     </main>
   </body>
 </html>

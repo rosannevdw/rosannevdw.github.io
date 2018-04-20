@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ed1847;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+    </style>
+  </defs>
+  <title>workshop</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g>
+        <rect class="cls-1" width="300" height="300"/>
+        <g>
+          <g>
+            <polygon class="cls-2" points="90.9 221.2 60.5 238.8 60.5 273.9 90.9 291.5 121.3 273.9 121.3 238.8 90.9 221.2"/>
+            <polyline class="cls-2" points="60.5 238.8 90.9 255.7 121.3 238.8"/>
+            <line class="cls-2" x1="90.9" y1="254.8" x2="90.9" y2="291.5"/>
+          </g>
+          <g>
+            <polygon class="cls-2" points="122 169.1 91.6 186.6 91.6 221.7 122 239.3 152.4 221.7 152.4 186.6 122 169.1"/>
+            <polyline class="cls-2" points="91.6 186.6 122 203.5 152.4 186.6"/>
+            <line class="cls-2" x1="122" y1="202.7" x2="122" y2="239.3"/>
+          </g>
+          <g>
+            <polygon class="cls-2" points="216.5 13.5 186.1 31.1 186.1 66.2 216.5 83.8 246.9 66.2 246.9 31.1 216.5 13.5"/>
+            <polyline class="cls-2" points="186.1 31.1 216.5 48 246.9 31.1"/>
+            <line class="cls-2" x1="216.5" y1="47.1" x2="216.5" y2="83.8"/>
+          </g>
+          <g>
+            <polygon class="cls-2" points="153.2 117.3 122.8 134.8 122.8 170 153.2 187.5 183.6 170 183.6 134.8 153.2 117.3"/>
+            <polyline class="cls-2" points="122.8 134.8 153.2 151.7 183.6 134.8"/>
+            <line class="cls-2" x1="153.2" y1="150.9" x2="153.2" y2="187.5"/>
+          </g>
+          <g>
+            <polygon class="cls-2" points="184.4 65.1 153.9 82.7 153.9 117.8 184.4 135.4 214.8 117.8 214.8 82.7 184.4 65.1"/>
+            <polyline class="cls-2" points="153.9 82.7 184.4 99.6 214.8 82.7"/>
+            <line class="cls-2" x1="184.4" y1="98.7" x2="184.4" y2="135.4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

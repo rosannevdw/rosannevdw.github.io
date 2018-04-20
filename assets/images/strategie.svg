@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: #ed1847;
+      }
+    </style>
+  </defs>
+  <title>strategie</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g>
+        <rect class="cls-1" width="300" height="300"/>
+        <circle class="cls-2" cx="145.8" cy="155.8" r="10"/>
+      </g>
+    </g>
+  </g>
+</svg>

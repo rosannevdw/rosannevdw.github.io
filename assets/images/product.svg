@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #ed1847;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <title>product</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <g>
+        <rect class="cls-1" width="300" height="300"/>
+        <g>
+          <polygon class="cls-2" points="153.2 48.1 62.3 100.5 62.3 205.5 153.2 257.9 244 205.5 244 100.5 153.2 48.1"/>
+          <polyline class="cls-2" points="62.3 100.5 153.2 151 244 100.5"/>
+          <line class="cls-2" x1="153.2" y1="148.5" x2="153.2" y2="257.9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
