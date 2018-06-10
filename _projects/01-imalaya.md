@@ -1,8 +1,26 @@
 ---
 layout: oneproject
-title:  'Spezialangebot: das Take-off Package'
+title:  'Spezialangebot: die Take-off Packages'
 tags:   
 ---
+
+<aside>
+
+<figure>
+  <img src="/assets{{ page.url }}packages.jpg"
+    srcset="/assets{{ page.url }}packages_2x.jpg 2x"
+    alt="Übersicht Take-Off Packages">
+  <figcaption>Die Take-Off Packages</figcaption>
+</figure>
+
+<figure>
+  <img src="/assets{{ page.url }}yeti.jpg"
+    srcset="/assets{{ page.url }}yeti_2x.jpg 2x"
+    alt="Yeti in seinem Habitat">
+  <figcaption>Yeti in seinem Habitat</figcaption>
+</figure>
+
+</aside>
 
 In eine Markenidentität investieren lohnt sich: eine starkes, klares Branding überzeugt den Kunden und erleichert die Arbeit des Sales-Personals. Durch erhöhten Bekanntheitsgrad können Sie schneller Markenwert und Kundentreue aufbauen.
 
@@ -13,16 +31,4 @@ Die Pakete sind stufenweise zusammengestellt:
 - **Business:** die Standardausrüstung.
 - **Suite:** das Buffet à dis­cré­ti­on.
 
-&rarr; [PDF mit mehr Details herunterladen](/assets/images/studio_franklin_TakeOffPackages.pdf){:target="_blank"}
-<br>Oder kontaktieren Sie uns unverbindlich: [design@studio-franklin.com](mailto:design@studio-franklin.com)
-
-<aside>
-
-<figure>
-  <img src="/assets{{ page.url }}tenderDufry01.jpg"
-    srcset="/assets{{ page.url }}tenderDufry01_2x.jpg 2x"
-    alt="Dufry Tender New Business - Cover">
-  <figcaption>my caption</figcaption>
-</figure>
-
-</aside>
+&rarr; [PDF mit mehr Details herunterladen](/assets/images/studio_franklin_TakeOffPackages.pdf){:target="_blank"} oder [kontaktieren Sie uns unverbindlich](mailto:design@studio-franklin.com)

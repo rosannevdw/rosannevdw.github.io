@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="241.2" height="240" viewBox="0 0 241.2 240">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f5f5f5;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #ed1847;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-4 {
+        stroke: #00005a;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g>
+        <rect class="cls-1" x="0.8" width="240" height="240"/>
+        <line class="cls-2" x1="114.2" y1="204.6" x2="126.9" y2="210.3"/>
+        <line class="cls-2" x1="114.2" y1="210.3" x2="126.9" y2="204.6"/>
+        <ellipse class="cls-3" cx="120.6" cy="207.4" rx="26.2" ry="9.9"/>
+        <path class="cls-4" d="M240.8,195S123.1,167.5.3,195"/>
+      </g>
+    </g>
+  </g>
+</svg>

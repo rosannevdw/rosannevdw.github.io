@@ -4,8 +4,7 @@ title:  'Zharity'
 tags:   
 ---
 
-Text Zharity.
-
+Zharity ist eine gemeinnützige Organisation und eine lebendige, internationale Gemeinschaft in Zürich. Sie organisieren Projekten und Veranstaltungen in allen Formen und Größen. Ihr Ziel ist es, Gutes zu tun, und gleichzeitig Spaß zu haben und Menschen zu verbinden.
 
 
 <aside>
@@ -60,3 +59,12 @@ Text Zharity.
 </figure>
 
 </aside>
+
+### Visual Identity
+*#Branding* *#Logo* *#Visual Identity System* *#Brand Guidelines*.
+
+#### Aufgabe:
+In 2015 haben wir für Zharity ihr Logo gestaltet. Da war dem Kunden wichtig, dass ein Schirm Teil vom Logo wird. In 2017 - die Organisation war mittlerweile schon gewachsen und sie hatten den Prozess angefangen sich offiziell als ‘Verein’ zu registrieren - kamen sie zu mir, um die visuelle Identität weiterzuentwickeln. Sie hatten beim gestalten ihrer Website gemerkt, dass es noch kein ‘common ground’ gibt was die Gestaltung angeht. Sie bräuchten eine klare Struktur womit alle Freiwilligen unabhängig arbeiten können und eine visuelle Konsistenz bleibt.
+
+#### Ergebnis:
+Ein modulares Identitätssystem, dass aus verschiedene, starke Basiselemente besteht die beliebig zusammengesetzt werden können, aber trotzdem wiedererkennbar bleibt. Es ist einfach genug aufgebaut, ohne allzuviele Regeln, dass die Mitglieder/innen selbst damit weiterarbeiten können, ohne Kenntnisse eines Grafikprogramms. Die viele Farben und runde Formen illustrieren die Energie der Mitgliedern sowie die Vielseitigkeit der Organisation.

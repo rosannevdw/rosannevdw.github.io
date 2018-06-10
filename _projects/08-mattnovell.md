@@ -1,10 +1,10 @@
 ---
 layout: oneproject
-title:  'Matt Novell'
+title:  'DJ Matt Novell'
 tags:   
 ---
 
-Text Logo DJ Matt Novell.
+Ein kleines aber feines Projekt: ein Logo für DJ Matt Novell.
 
 
 <aside>

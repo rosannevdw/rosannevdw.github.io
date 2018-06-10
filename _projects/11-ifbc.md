@@ -4,7 +4,7 @@ title:  'IFBC'
 tags:   
 ---
 
-#### Die [IFBC](http://www.ifbc.ch) ist ein Beratungsunternehmen aus Zürich, spezialisiert auf Fragen der Finanziellen Unternehmensführung. Studio Franklin unterstützt die IFBC seit 2016 bei verschiedenen Projekten, unter anderem:####
+#### Die [IFBC](http://www.ifbc.ch) ist ein Beratungsunternehmen aus Zürich, spezialisiert auf Fragen der Finanziellen Unternehmensführung. Studio Franklin unterstützt die IFBC seit 2016 bei verschiedenen Projekten.
 
 ### &laquo;IFBC Dialog&raquo; Finance & Banking
 *#Magazin* *#Infografik* *#Print* *#Corporate*

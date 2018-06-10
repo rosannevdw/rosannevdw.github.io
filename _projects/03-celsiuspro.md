@@ -4,7 +4,9 @@ title:  'CelsiusPro'
 tags:   
 ---
 
-Bei CelsiusPro AG verantwortlich für:
+CelsiusPro wurde im Jahr 2008 gegründet und ist ein Unternehmen der Schweizer Insurtech, der sich auf die Industrialisierung von Indexversicherungslösungen spezialisiert hat, um die Auswirkungen von ungünstigen Wetterbedingungen, Klimawandel und Naturkatastrophen zu mildern.
+
+Bei CelsiusPro AG war Rosanne als Angestellte verantwortlich für:
 Weiterentwicklung der Corporate Identity. Erstellen von Vorlagen und Richtlinien. Redesign und Pflege der Firmenwebseite. Konzept und GUI Design für eine mobile App. Marketing-Planung und Gestaltung von Werbeanzeigen (gedruckt und digital) und Newsletter.
 
 
