@@ -5,13 +5,12 @@ order: 2
 ---
 
 
-#### Wer ist die Marke? Wie ist ihre Persönlichkeit, mit was für Stimme spricht sie? Welche sind die «Customer Touch Points»? Lass es uns zusammen herausfinden.
+## Wer ist die Marke?
+
+Wie ist ihre Persönlichkeit, mit was für Stimme spricht sie? Welche sind die «Customer Touch Points»? Lass es uns zusammen herausfinden. Ohne strategische Überlegungen Ihre visuelle Kommunikation gestalten, ist wie ein Haus bauen ohne Pläne. Unsere Arbeit soll keine einmalige Ausgabe sein, aber eine nachhaltige Investition. Wir helfen Ihnen, Ihre Ziele zu erreichen und Ihre Marke zu stärken.
 
 
-Ohne strategische Überlegungen Ihre visuelle Kommunikation gestalten, ist wie ein Haus bauen ohne Pläne. Unsere Arbeit soll keine einmalige Ausgabe sein, aber eine nachhaltige Investition. Wir helfen Ihnen, Ihre Ziele zu erreichen und Ihre Marke zu stärken.
-
-
-**[Kontaktieren Sie uns](mailto:design@studio-franklin.com).** Wir freuen uns, Sie kennenzulernen und über Ihre Pläne zu erfahren.
+[Kontaktieren Sie uns](mailto:design@studio-franklin.com). Wir freuen uns, Sie kennenzulernen und über Ihre Pläne zu erfahren.
 
 
 ## Unsere Kernkompetenzen:
@@ -21,7 +20,7 @@ Ohne strategische Überlegungen Ihre visuelle Kommunikation gestalten, ist wie e
           <h3>Das wichtigste zuerst: Branding Strategie</h3>
           <ul>
               <li>Entwicklung Markenstrategie.</li>
-              <li>Neu- oder Umgestaltung des Erscheinungsbildes.</li>
+              <li>Neu- oder Umgestaltung des Erscheinungsbildes oder «CI».</li>
               <li>Aufbau der Markenrichtlinien.</li>
           </ul>
       </div>
@@ -59,14 +58,15 @@ Ohne strategische Überlegungen Ihre visuelle Kommunikation gestalten, ist wie e
   </div>
 
 
-<h2>Unsere Partners in crime</h2>
-<p>Unsere Stärke ist Ihre Marke visualisieren. Das machen wir nicht immer alleine. Für ein erweitertes Branding-Angebot arbeiten wir mit anderen Experten zusammen, nach Bedarf.
-<br/>Wir empfehlen vom Herzen:</p>
+## Unsere Partners-in-Crime:
+Unsere Stärke ist Ihre Marke visualisieren. Das machen wir nicht immer alleine. Für ein erweitertes Branding-Angebot arbeiten wir mit anderen Experten zusammen, nach Bedarf. Wir empfehlen vom Herzen:
+
 <div class="pink-box">
 <ul>
     <li>Webentwicklung: <a href="https://what.digital" target="_blank">what.</a></li>
     <li>Portrait Fotografie: <a href="https://www.pepshot.ch" target="_blank">Pep Shot</a></li>
     <li>Content Marketing und Social Media: <a href="http://qultmedia.ch" target="_blank">Qultmedia</a></li>
+    <li>Text: <a href="http://edition-ruedt.ch" target="_blank">Edition Rüdt</a></li>
     <li>Illustration: <a href="http://pattriz.ch" target="_blank">Pattriz</a></li>
     <li>Produkt Design: <a href="http://www.aimstudio.com" target="_blank">AIM Studio</a></li>
     <li>Innenarchitektur: <a href="http://raumtakt.ch" target="_blank">Raumtakt</a></li>

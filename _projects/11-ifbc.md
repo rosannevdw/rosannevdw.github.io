@@ -4,10 +4,10 @@ title:  'IFBC'
 tags:   
 ---
 
-#### Die [IFBC](http://www.ifbc.ch) ist ein Beratungsunternehmen aus Zürich, spezialisiert auf Fragen der Finanziellen Unternehmensführung. Studio Franklin unterstützt die IFBC seit 2016 bei verschiedenen Projekten.
+#### Die IFBC ist ein Beratungsunternehmen aus Zürich, spezialisiert auf Fragen der Finanziellen Unternehmensführung. Studio Franklin unterstützt die IFBC seit 2016 bei verschiedenen Projekten.
 
-### &laquo;IFBC Dialog&raquo; Finance & Banking
-*#Magazin* *#Infografik* *#Print* *#Corporate*
+### IFBC Dialog
+*Magazin* *Infografik* *Print* *Corporate*
 
 <aside>
     <figure>
@@ -40,7 +40,7 @@ tags:
 </aside>
 
 #### Aufgabe:
-Komplettes redesign der «IFBC Dialog - Finance Edition». Die hauseigene, jährliche Publikation umfasst Artikel zur Aktien-Performance, Wertschaffung, Bewertung und Dividendenpolitik von Schweizer Nichtfinanz-Unternehmen.
+Komplettes Redesign der «IFBC Dialog - Finance Edition». Die hauseigene, jährliche Publikation umfasst Artikel u.a. zur Aktienperformance, Wertschaffung, Bewertung und Dividendenpolitik von Schweizer Nichtfinanz-Unternehmen.
 
 #### Ergebnis:
 Studio Franklin hat das neue Layout **zeitgemäss als Magazin gestaltet** statt wie vorher eine klassische, akademische Studie. Wir haben ebenfalls **massgeschneiderte Infografiken** kreiert. Alles passend zur bestehenden IFBC-Identität: die Hausschrifte und das Logo wurden behalten, die Farbenpalette wurde leicht angepasst. Der Inhalt wurde vom Kunden geliefert als Word und Excel Dateien.
@@ -52,8 +52,8 @@ Die tolle Zusammenarbeit dürften wir fortsetzen in 2017. Neben der Finance Edit
 [IFBC Dialog Finance Edition 2017](http://www.ifbc.ch/tl_files/content/file/publikationen/Dialog/Finance/2017/IFBC_Finance_Dialog_2017.pdf){:target="_blank"}<br>
 [IFBC Dialog Banking Edition 2017](http://www.ifbc.ch/tl_files/content/file/publikationen/Dialog/Banking/2017/IFBC_Banking_Dialog_2017.pdf){:target="_blank"}
 
-### «IFBC Update»
-*#Newsletter* *#Print* *#Infografik*
+### IFBC Update
+*Newsletter* *Print* *Infografik*
 
 <aside>
     <figure>
@@ -70,8 +70,8 @@ Text text.
 #### Ergebnis:
 Text text.
 
-### &laquo;IFBC FX Dialog&raquo;
-*#Flyer* *#Print*
+### IFBC FX Dialog
+*Flyer* *Print*
 
 <aside>
     <figure>

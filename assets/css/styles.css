@@ -100,7 +100,8 @@ h2 {
   margin-bottom: 1.5em;
   font-size: 1.3em;
   line-height: 1.3em;
-  border-bottom: 3px solid;
+  border-bottom: 4px solid;
+  border-color: white;
   padding-bottom: 0.5em;
   padding-top: 2em;
 }
@@ -116,8 +117,8 @@ h4 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 500;
   margin-top: 1em;
-  font-size: 1em;
-  line-height: 1.4em;
+  font-size: 0.95em;
+  line-height: 1.45em;
 }
 blockquote {
   background-color: #ecbbbe;
@@ -139,16 +140,10 @@ blockquote::before {
   top: 0px;
 }
 figcaption {
-  font-size: 0.85em;
+  font-size: 0.7em;
   padding: 1px 8px 5px 8px;
-  font-family: 'Quincy-italic';
+  font-family: 'Fira Sans';
   color: #1b4685;
-}
-.white-box {
-  margin-bottom: 20px;
-  margin-right: 10px;
-  padding: 1px 20px 20px 20px;
-  background-color: white;
 }
 .pink-box {
   background: #ecbbbe;
@@ -215,7 +210,7 @@ header::after {
   content: ' ';
   clear: both;
   display: block;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
 }
 .logo {
   font-size: 23px;
@@ -383,12 +378,12 @@ main.projects {
 }
 .default aside {
   position: absolute;
-  top: 300px;
-  left: 800px;
+  top: 320px;
+  left: 700px;
 }
 .default p, .default li,
 .default h2, .default h3, .default h4, .default .pink-box {
-  max-width: 700px;
+  max-width: 600px;
 }
 .default img {
   width: 100%;
@@ -399,15 +394,13 @@ main.projects {
 .default ul {
   list-style-type: none;
   margin-bottom: 1em;
-  line-height: 1.5em;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 0.85em;
-  color: #1b4685;;
+  line-height: 1.4em;
+  color: #1b4685;
 }
 .default li::before {
   display: inline-block;
   vertical-align: middle;
-  color: #00005a;
+  color: #1b4685;
   margin-right: 10px;
   content: '•';
 }
@@ -419,7 +412,7 @@ main.projects {
 }
 .gridtext {
   background-color: none;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 20px;
   max-width: 700px;
 }
 .gridimage {
@@ -429,13 +422,7 @@ main.projects {
 .gridimage img {
   width: 150px;
 }
-.gridwrapper p {
-    max-width: none;
-    margin-bottom: 1em;
-    line-height: 1.5em;
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 0.85em;
-}
+
 .gridwrapper li {
   max-width: none;
 }
@@ -483,7 +470,7 @@ main.projects {
   background: white;
 }
 .oneproject figure > img {
-  width: calc(100vw - 500px);
+  width: calc(100vw - 540px);
 }
 
 .oneproject p, .oneproject li, .oneproject blockquote,
@@ -493,21 +480,29 @@ main.projects {
 
 .oneproject ul {
   list-style-type: none;
-  margin-bottom: 2em;
-  line-height: 140%;
+  margin-bottom: 1em;
+  line-height: 1.4em;
+  color: #1b4685;
+}
+.oneproject li::before {
+  display: inline-block;
+  vertical-align: middle;
+  color: #1b4685;
+  margin-right: 10px;
+  content: '•';
 }
 
 .oneproject em {
   background-color: white;
   color: inherit;
   padding: 1px 6px 1px 6px;
-  font-size: 0.75em;
+  font-size: 0.7em;
   font-family:'Fira Sans', sans-serif;
   font-style: normal;
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 799px) {
   /* mobile */
   .oneproject aside {
     position: static;

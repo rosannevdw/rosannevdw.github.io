@@ -4,8 +4,7 @@ title:  'Tosi Architektur'
 tags:   
 ---
 
-Bilder für die Firmenwebsite der Tosi Architektur, die die drei Kompetenzen Architektur, Energie und Planung illustrieren und gut zusammenpassen.
-
+Themenbilder für die Firmenwebsite der Tosi Architektur, die ihre drei Kompetenzen Architektur, Energie und Planung illustrieren.
 
 <aside>
 
