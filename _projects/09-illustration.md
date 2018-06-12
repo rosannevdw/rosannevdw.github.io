@@ -5,6 +5,7 @@ tags:
 ---
 
 Ein paar Beispiele von Illustrationen, mit der Hand und/oder in Adobe Illustrator (vektorisiert) gestaltet.
+Mehr Bilder kommen bald!
 
 <aside>
 

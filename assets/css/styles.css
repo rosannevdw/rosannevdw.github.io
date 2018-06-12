@@ -92,7 +92,7 @@ strong {
   color: #00aeef;
   text-decoration: none;
   font-weight: normal;
-  font-family: 'Quincy-italic';
+  font-family: 'Quincy-regular';
 }
 h2 {
   font-family: 'Fira Sans', sans-serif;
@@ -140,10 +140,10 @@ blockquote::before {
   top: 0px;
 }
 figcaption {
-  font-size: 0.7em;
-  padding: 1px 8px 5px 8px;
-  font-family: 'Fira Sans';
+  font-size: 0.8em;
+  font-family: 'Quincy-italic';
   color: #1b4685;
+  text-align: right;
 }
 .pink-box {
   background: #ecbbbe;
@@ -378,7 +378,7 @@ main.projects {
 }
 .default aside {
   position: absolute;
-  top: 320px;
+  top: 330px;
   left: 700px;
 }
 .default p, .default li,
@@ -411,9 +411,9 @@ main.projects {
   grid-row-gap: 10px;
 }
 .gridtext {
-  background-color: none;
   padding: 0px 10px 0px 20px;
   max-width: 700px;
+  background-color: white;
 }
 .gridimage {
   align-self: center;
@@ -467,7 +467,6 @@ main.projects {
 }
 .oneproject figure {
   margin-bottom: 20px;
-  background: white;
 }
 .oneproject figure > img {
   width: calc(100vw - 540px);
@@ -481,7 +480,7 @@ main.projects {
 .oneproject ul {
   list-style-type: none;
   margin-bottom: 1em;
-  line-height: 1.4em;
+  line-height: 1.3em;
   color: #1b4685;
 }
 .oneproject li::before {

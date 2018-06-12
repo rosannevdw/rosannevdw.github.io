@@ -6,17 +6,16 @@ tags:
 
 <aside>
 <figure>
-  <img src="/assets{{ page.url }}yeti.jpg"
-    srcset="/assets{{ page.url }}yeti_2x.jpg 2x"
-    alt="Yeti in seinem Habitat">
-  <figcaption>Yeti in seinem Habitat</figcaption>
-</figure>
-
-<figure>
   <img src="/assets{{ page.url }}packages.jpg"
     srcset="/assets{{ page.url }}packages_2x.jpg 2x"
     alt="Übersicht Take-Off Packages">
   <figcaption>Die Take-Off Packages</figcaption>
+</figure>
+<figure>
+  <img src="/assets{{ page.url }}yeti.jpg"
+    srcset="/assets{{ page.url }}yeti_2x.jpg 2x"
+    alt="Yeti in seinem Habitat">
+  <figcaption>Yeti in seinem Habitat</figcaption>
 </figure>
 </aside>
 
@@ -30,3 +29,5 @@ Die Pakete sind stufenweise zusammengestellt:
 - **Suite:** das Buffet à dis­cré­ti­on.
 
 &rarr; [kontaktieren Sie uns unverbindlich](mailto:design@studio-franklin.com)
+
+![yeti Fred](/assets{{ page.url }}yeti-pic.jpg)

@@ -4,10 +4,11 @@ title:  'Wer wir sind:'
 order: 3
 ---
 
-## Studio Franklin resultiert aus dem Wunsch multidisziplinäre Design-Kompetenzen zusammenzubringen, mit Schwerpunkt auf Branding.
+## Wenn wir uns alle hauptsächlich auf Vernunft verlassen würden, gäbe es nicht so viele Brands.
 
+Studio Franklin resultiert aus dem Wunsch multidisziplinäre Design-Kompetenzen zusammenzubringen, mit Schwerpunkt auf Branding.
 
-Studio Franklin wurde im Mai 2015 von Rosanne Vandeweerdt *(Bild links)* gegründet. Sie hat einen Master in Industrie-Design an der Universität Antwerpen absolviert, und bringt über zehn Jahre Berufserfahrung aus einer Vielzahl von Branchen und Orten mit (New York, Barcelona, Zürich). Wenn sie nicht im Büro ist, spielt Rosanne die Oboe in der Stadtharmonie Zürich Oerlikon-Seebach, ist mit dem Velo unterwegs oder macht etwas das mit kochen und/oder essen zu tun hat. [Lebenslauf](/assets/images/CV_RosanneVandeweerdt_DE.pdf){:target="_blank"}. [LinkedIn.](http://www.linkedin.com/in/rosannevdw){:target="_blank"}
+Studio Franklin wurde im Mai 2015 von Rosanne Vandeweerdt *(Bild)* gegründet. Sie hat einen Master in Industrie-Design an der Universität Antwerpen absolviert, und bringt über zehn Jahre Berufserfahrung aus einer Vielzahl von Branchen und Orten mit (New York, Barcelona, Zürich). Wenn sie nicht im Büro ist, spielt Rosanne die Oboe in der Stadtharmonie Zürich Oerlikon-Seebach, ist mit dem Velo unterwegs oder macht etwas das mit kochen und/oder essen zu tun hat. [Lebenslauf](/assets/images/CV_RosanneVandeweerdt_DE.pdf){:target="_blank"}. [LinkedIn.](http://www.linkedin.com/in/rosannevdw){:target="_blank"}
 
 Wieso «Franklin»? Das erzählen wir gerne an einem Treffen. Wir reden mit Ihnen DE/EN/NL/FR y un poco ES. Ausserdem haben wir eine gute und treue Kaffeemaschine: hereinspaziert!
 
