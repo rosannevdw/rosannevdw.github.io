@@ -7,7 +7,7 @@ tags:
 #### Slimrock ist verarbeitender Spezialist für Skinrock® Steinfurnier: ultradünne und ultraleichte Natursteinplatten für praktisch unbegrenzte Anwendungsmöglichkeiten innen und aussen.
 
 ### Markenauftritt
-*CI* *Logo* *Neugestaltung*
+*CI | Logo | Neugestaltung*
 
 <aside>
 <figure>
@@ -79,7 +79,7 @@ Beschreibung kommt bald.
 </aside>
 
 ### Messestand
-*3D Branding* *Raumgestaltung*
+*3D Branding | Raumgestaltung | Messebau*
 
 Beschreibung kommt bald.
 

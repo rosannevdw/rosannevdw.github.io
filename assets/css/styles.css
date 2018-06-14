@@ -466,7 +466,7 @@ main.projects {
   float: right;
 }
 .oneproject figure {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .oneproject figure > img {
   width: calc(100vw - 540px);
@@ -492,11 +492,10 @@ main.projects {
 }
 
 .oneproject em {
-  background-color: white;
+  background-color: none;
   color: inherit;
-  padding: 1px 6px 1px 6px;
-  font-size: 0.7em;
-  font-family:'Fira Sans', sans-serif;
+  font-size: 0.8em;
+  font-family:'Quincy-italic', serif;
   font-style: normal;
 }
 

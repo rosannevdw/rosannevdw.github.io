@@ -7,7 +7,7 @@ tags:
 Im Basislager, in Zürich-Altstetten, haben in 4 Ateliergebäuden ungefähr 200 Personen aus dem Kunst- und Kulturbereich und der Kreativwirtschaft ihre Ateliers bezogen.
 
 ### Weihnachstmarkt
-*Plakat* *Flyer* *Kampagnenbild* *3D*
+*Plakat | Flyer | Kampagnenbild | 3D*
 
 <aside>
 <figure>

@@ -7,14 +7,26 @@ tags:
 #### Die PRÜFAG AG, mit Sitz in Zürich, ist Spezialist für Revisionen und andere Geschäftsprüfungen.
 
 ### Soft Rebranding
-*Neugestaltung* *Logo* *Visual Identity System* *Markenrichtlinien* *Vorlagen*
+*Neugestaltung | Logo | Markenrichtlinien | Vorlagen*
 
 <aside>
 <figure>
-  <img src="/assets{{ page.url }}logo.jpg"
-    srcset="/assets{{ page.url }}logo_2x.jpg 2x"
+  <img src="/assets{{ page.url }}pruefag_logo.jpg"
+    srcset="/assets{{ page.url }}pruefag_logo_2x.jpg 2x"
     alt="Ein neues Logo für PRÜFAG">
   <figcaption>Ein neues Logo für PRÜFAG</figcaption>
+</figure>
+<figure>
+  <img src="/assets{{ page.url }}pruefag_guidelines.jpg"
+    srcset="/assets{{ page.url }}pruefag_guidelines_2x.jpg 2x"
+    alt="Einige Seiten der neuen Markenrichtlinien">
+  <figcaption>Einige Seiten der neuen Markenrichtlinien</figcaption>
+</figure>
+<figure>
+  <img src="/assets{{ page.url }}pruefag_vorlagen.jpg"
+    srcset="/assets{{ page.url }}pruefag_vorlagen_2x.jpg 2x"
+    alt="A4 Vorlagen, in Word vorbereitet">
+  <figcaption>A4 Vorlagen, in Word vorbereitet</figcaption>
 </figure>
 </aside>
 

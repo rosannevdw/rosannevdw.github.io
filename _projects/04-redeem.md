@@ -7,7 +7,7 @@ tags:
 #### Redeem ist eine Schweizer Marke von high-end «Cosmeceuticals», eine Mischung von Cosmetica und Pharma.
 
 ### Verpackung
-*Grafik* *Packaging* *3D*
+*Grafik | Packaging Design | 3D*
 
 
 <aside>

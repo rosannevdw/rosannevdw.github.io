@@ -4,9 +4,14 @@ title:  'Greenwich Aerogroup'
 tags:   
 ---
 
-Realisiert als Angestellte bei Gilmore Group, New York.
+#### Greenwich Aerogroup ist globaler Anbieter von umfassenden Flugzeugdienstleistungen.
 
-Zu den Aufgaben gehörten: Design der massgefertigten Möbel, technische Zeichnungen für die Schreiner, Auswahl und Kauf von Möbel und Elektronik, und Aufsicht über der Aufbau an der NBAA Messe in Orlando, Florida.
+### Messestand
+*Retail Design | 3D Branding | Messebau*
+
+Dieses Projekt hat Rosanne realisiert als Angestellte bei der Gilmore Group in New York.
+
+Zu ihren Aufgaben gehörten: Design der massgefertigten Möbel, technische Zeichnungen für die Schreiner, Auswahl und Kauf von Möbel und Elektronik, und Aufsicht über der Aufbau an der NBAA Messe in Orlando, Florida.
 
 
 <aside>
